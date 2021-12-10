@@ -10,6 +10,22 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
+}
+
+.button {
+  cursor: pointer;
+  padding: 10px 15px;
+  outline: none;
+  background-color: rebeccapurple;
+  border: none;
+  color: white;
+  border-radius: 4px;
+  transition: background-color 0.2s;
+}
+
+.button:hover {
+  background-color: #442266;
 }
 
 .footer {
